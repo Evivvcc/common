@@ -7,6 +7,7 @@ import (
 
 // 只允许配置放在 conf 目录，多环境用配置中心
 // e.g. configFilePath : "./conf/application.yaml"
+//
 
 func Init(configFilePath string) {
 	viper.SetConfigFile(configFilePath)
@@ -18,4 +19,5 @@ func Init(configFilePath string) {
 
 func Get(key string) interface{} {
 	return viper.Get(key)
+
 }
