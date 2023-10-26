@@ -1,4 +1,4 @@
-module github.com/Evivvcc/common
+module github.com/evivvcc/common
 
 go 1.21
 
