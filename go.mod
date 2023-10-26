@@ -1,4 +1,4 @@
-module evivv.io/common
+module github.com/Evivvcc/common
 
 go 1.21.0
 
