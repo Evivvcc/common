@@ -5,6 +5,7 @@ go 1.21.0
 require (
 	github.com/spf13/viper v1.17.0
 	github.com/xuri/excelize/v2 v2.8.0
+	go.uber.org/zap v1.21.0
 	gorm.io/driver/mysql v1.5.2
 	gorm.io/gorm v1.25.5
 )
